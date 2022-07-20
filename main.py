@@ -7,7 +7,7 @@ from skimage.io import imread
 # download the image
 img_url = 'https://commons.wikimedia.org/wiki/File:Commons-logo.svg#/media/ファイル:Commons-logo.svg'
 
-im = imread(img_url))
+im = imread(img_url)))
 
 st.image(im, caption='image from wikimedia commons',
          use_column_width=True)
